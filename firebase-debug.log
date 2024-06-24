@@ -1,0 +1,70 @@
+[debug] [2024-06-24T12:16:37.411Z] ----------------------------------------------------------------------
+[debug] [2024-06-24T12:16:37.414Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-24T12:16:37.414Z] CLI Version:   13.11.4
+[debug] [2024-06-24T12:16:37.414Z] Platform:      win32
+[debug] [2024-06-24T12:16:37.414Z] Node Version:  v20.12.2
+[debug] [2024-06-24T12:16:37.414Z] Time:          Mon Jun 24 2024 17:46:37 GMT+0530 (India Standard Time)
+[debug] [2024-06-24T12:16:37.415Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-24T12:16:37.422Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-24T12:16:37.422Z] > authorizing via signed-in user (ajitmeesala2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pc\Documents\Pavan Repo\Brand Atelier
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-24T12:16:47.884Z] > refreshing access token with scopes: []
+[debug] [2024-06-24T12:16:47.886Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-24T12:16:47.886Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-24T12:16:48.128Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-24T12:16:48.128Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-24T12:16:48.137Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-24T12:16:48.737Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-24T12:16:48.737Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project brand-atelier (Brand Atelier) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-24T12:16:50.676Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/brand-atelier [none]
+[debug] [2024-06-24T12:16:51.012Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/brand-atelier 200
+[debug] [2024-06-24T12:16:51.013Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/brand-atelier {"projectId":"brand-atelier","projectNumber":"108017090238","displayName":"Brand Atelier","name":"projects/brand-atelier","resources":{"hostingSite":"brand-atelier"},"state":"ACTIVE","etag":"1_7e3668a1-8d5f-46a3-9850-733d76f2d120"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2024-06-24T12:17:37.428Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-06-24T12:17:37.530Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-06-24T12:17:37.530Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.12.2","browserURL":"https://www.gstatic.com/firebasejs/10.12.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.12.2/firebase.tgz"},"live":{"version":"10.12","browserURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.12/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.12.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.12.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.12.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.12.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.12.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js","vertexai-preview":"https://www.gstatic.com/firebasejs/10.12.2/firebase-vertexai-preview.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\pc\Documents\Pavan Repo\Brand Atelier is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=741866895&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-06-24T12:19:11.757Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-06-24T12:19:11.757Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-06-24T12:19:12.186Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-06-24T12:19:12.186Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-06-24T12:19:12.192Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-06-24T12:19:12.624Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-06-24T12:19:12.625Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"AjitMeesala","id":67087879,"node_id":"MDQ6VXNlcjY3MDg3ODc5","avatar_url":"https://avatars.githubusercontent.com/u/67087879?v=4","gravatar_id":"","url":"https://api.github.com/users/AjitMeesala","html_url":"https://github.com/AjitMeesala","followers_url":"https://api.github.com/users/AjitMeesala/followers","following_url":"https://api.github.com/users/AjitMeesala/following{/other_user}","gists_url":"https://api.github.com/users/AjitMeesala/gists{/gist_id}","starred_url":"https://api.github.com/users/AjitMeesala/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/AjitMeesala/subscriptions","organizations_url":"https://api.github.com/users/AjitMeesala/orgs","repos_url":"https://api.github.com/users/AjitMeesala/repos","events_url":"https://api.github.com/users/AjitMeesala/events{/privacy}","received_events_url":"https://api.github.com/users/AjitMeesala/received_events","type":"User","site_admin":false,"name":"Ajit Meesala","company":"GMR Institute of Technology","blog":"https://www.linkedin.com/in/ajit-meesala-2003/","location":"Srikakulam","email":null,"hireable":true,"bio":"Student at GMR Institute Of Technology | Web Developer | Graphic Designer","twitter_username":"ajit_meesala","public_repos":7,"public_gists":0,"followers":2,"following":10,"created_at":"2020-06-18T04:21:42Z","updated_at":"2024-06-01T12:13:18Z","private_gists":0,"total_private_repos":9,"owned_private_repos":9,"disk_usage":57382,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as AjitMeesala 
+[info] 

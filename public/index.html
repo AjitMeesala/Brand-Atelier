@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brand Atelier</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 
+This game is on iOS and Android "Infinity Loop"
+I loved the concept ant wanted to see if I could make it in jQuery 
+-->
+    <div id="toolbar">
+      <!-- <span id="theme">Light Off</span> -->
+      <div>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="checkbox-label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <span class="ball"></span>
+        </label>
+      </div>
+      <!-- ><span class="toggleCreateLevel"> Create Level</span>
+      <span class="link"> <a href="#" target="_blank">Brand Atelier</a></span> -->
+    </div>
+
+    <div id="intro">
+      <div class="text typing">Welcome to</div>
+      <div class="text typing-2">Brand Atelier</div>
+    </div>
+
+    <!-- level 1 -->
+    <div
+      class="level1"
+      data-code="1231243"
+      data-set="e1.b.c2.c3.c1.s2.c4.e2"
+      data-text-1="Finish the quick puzzle<br>"
+      data-text-2="to get into our Atelier!"
+      data-text-3="Click on the circle to start the game."
+    ></div>
+    <!-- level 2 -->
+    <!-- <div
+      class="level2"
+      data-code="2323114311231414"
+      data-set="c1.c2.c4.c1.s2.c3.c1.e1.s1.e2.c1.c3.c4.c1.c2.c3"
+    ></div>
+    <!-- level 3 -->
+    <div
+      class="level2"
+      data-code="42232324114122322243"
+      data-set="e2.s1.s2.c2.c2.c1.c1.c1.s2.c2.c2.b.c2.s2.s2.c1.c1.s1.s1.c1.e2.b.b.b"
+    ></div>
+    <!-- level 4 -->
+     <!--
+    <div
+      class="level4"
+      data-code="2222423124111111414"
+      data-set="b.c1.s1.e1.c1.c1.c1.c2.s2.c2.c2.s2.s2.s1.e2.s1.c2.c1.c2.c2"
+    ></div> -->
+    <!-- level 5 -->
+    <div
+      class="level3"
+      data-code="222314311113443"
+      data-set="c2.s1.s2.c1.s2.e1.c1.s1.s1.b.s2.s2.e1.e1.c1.e1"
+      data-text="Multiple pip es."
+    ></div>
+    <!-- level 6 -->
+    <div
+      class="level4"
+      data-code="112413123111111414"
+      data-set="b.e1.e2.b.c2.c1.c1.c1.s1.c1.c1.s2.s1.s2.s2.s1.c2.c1.c1.c2"
+    ></div>
+    <!-- level 7 -->
+     <!--
+    <div
+      class="level7"
+      data-code="2323141423231414"
+      data-set="c4.c1.c3.c1.c2.c3.c4.c1.c2.c1.c3.c2.c1.c1.c2.c1"
+      data-text="Circles."
+    ></div> -->
+    <!-- level 8 -->
+    <!-- <div
+      class="level3"
+      data-code="222312242211314311143"
+      data-set="c4.s1.s1.c1.c2.s2.s2.c1.b.c2.e3.e4.b.c2.c1.s2.e3.c2.s2.s1.b.c1.c2.e1"
+    ></div> -->
+    <!-- level 9 -->
+    <!--
+    <div
+      class="level9"
+      data-code="222244312241123132414"
+      data-set="b.c1.s1.e2.c2.c2.e1.c2.s1.c2.s2.c1.s1.c1.s1.c2.c1.c2.c2.c2.b.c2.c1.b"
+    ></div> -->
+    <!-- level 10 -->
+    <!-- <div
+      class="level4"
+      data-code="122311241413422423311231223"
+      data-set="e1.c2.s1.c4.s1.s2.c1.c3.c1.c3.c2.c4.e2.e4.c3.c2.c4.c2.e4.b.s1.c3.s2.c4.c1.s1.e2.e3"
+    ></div> -->
+    <!-- level 11 -->
+    <!--
+    <div
+      class="level11"
+      data-code="432224131431121122331222"
+      data-set="e1.c2.c1.e1.c1.c1.c1.c1.s1.e1.c2.s1.c1.e2.s2.s2.c1.e1.e1.e1.c2.s1.s2.e1"
+    ></div>
+    <!-- level 12 -->
+     <!--
+    <div
+      class="level12"
+      data-code="42232224122311113441222"
+      data-set="e2.s1.s2.c1.c2.s2.s1.c2.s2.c1.s2.c2.s1.s2.b.s2.s2.e2.e2.c1.c1.s2.s2.e1"
+    ></div>
+    <!-- level 13 -->
+     <!--
+    <div
+      class="level13"
+      data-code="2221223144422231241424"
+      data-set="c1.s1.e1.b.s2.c1.s2.c1.c1.c1.e2.c2.c1.e2.c1.c2.c2.s2.c2.s2.b.e1.s2.c1"
+    ></div> -->
+    <!-- level 14 -->
+    <!-- <div
+      class="level2"
+      data-code="1231141442314314442333"
+      data-set="e1.c2.c1.e2.c1.c2.c2.c2.e1.s2.c2.e1.e1.c1.c2.c1.e1.c2.c2.c2.b.b.e1.e2"
+    ></div>
+    <!-- level 15 -->
+     <!--
+    <div
+      class="level3"
+      data-code="1223113112434323111111411224"
+      data-set="e1.c2.s1.c2.s2.c1.c1.s2.c2.s2.c1.e1.e1.c1.c2.c1.e1.s1.s2.s2.s1.c1.c1.s2.c1.s2.s2.c1"
+    ></div>
+    <!-- level 16 -->
+     <!--
+    <div
+      class="level4"
+      data-code="422122243123241112414224"
+      data-set="e2.s1.e2.e1.c1.s1.s1.c2.e2.e2.c2.c1.c1.c2.s1.s2.c1.s1.c1.s2.e1.s1.s2.c1"
+    ></div> -->
+
+    <div id="win">
+      <!-- <div class="text">Level <span>1</span> Complete</div> -->
+      <!-- <div class="text typing-win">You nailed it! we are <span>3</span> steps away...</div> -->
+       <div class="text typing-win-1">You nailed it! we are 3 steps away...</div>
+       <div class="text typing-win-2">Woah! Smart enough, Waiting for you :)</div>
+       <div class="text typing-win-3">We are curious to interact with you!</div>
+    </div>
+    <div id="finished">
+      <div class="text typing-finished">You made it! but,</div>
+      <div class="text typing-construct">Our Atelier is under Construction.</div>
+    </div>
+
+    <div id="createLevel">
+      <div class="newLevel"></div>
+      <div class="stats"></div>
+      <div class="tools">
+        <img src="https://db.tt/k4C8HDzW" alt="" class="curve" />
+        <img src="https://db.tt/q7awJWNW" alt="" class="straight" />
+        <img src="https://db.tt/gBByua2j" alt="" class="end" />
+        <img
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          alt=""
+          class="bnone"
+        />
+      </div>
+    </div>
+
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCoCTDG6K_8Zq-AuJ36Wdg6wuCWdgrQkDM",
+        authDomain: "brand-atelier.firebaseapp.com",
+        projectId: "brand-atelier",
+        storageBucket: "brand-atelier.appspot.com",
+        messagingSenderId: "108017090238",
+        appId: "1:108017090238:web:959dae4c72f50f23bf28ef",
+        measurementId: "G-ESP9709P67"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
