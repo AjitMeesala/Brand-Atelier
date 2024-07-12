@@ -1,0 +1,94 @@
+{
+    "brandList": [
+        {
+            "name": "Big Bold",
+            "path": "../assets/brandMockups/bigbold",
+            "after": [
+                "/After/After-1.jpg",
+                "/After/After-2.jpg",
+                "/After/After-3.jpg",
+                "/After/After-4.jpg",
+                "/After/After-5.jpg"
+            ],
+            "before": [
+                "/Before/Before-1.jpg",
+                "/Before/Before-2.jpg",
+                "/Before/Before-3.jpg",
+                "/Before/Before-4.jpg",
+                "/Before/Before-5.jpg"
+            ]
+        },
+        {
+            "name": "Brynn Constructions",
+            "path": "../assets/brandMockups/brynnConstructions",
+            "after": [
+                "/After/After-1.jpg",
+                "/After/After-2.jpg",
+                "/After/After-3.jpg",
+                "/After/After-4.jpg",
+                "/After/After-5.jpg"
+            ],
+            "before": [
+                "/Before/Before-1.jpg",
+                "/Before/Before-2.jpg",
+                "/Before/Before-3.jpg",
+                "/Before/Before-4.jpg",
+                "/Before/Before-5.jpg"
+            ]
+        },
+        {
+            "name": "Pandago Gaming",
+            "path": "../assets/brandMockups/pandagoGaming",
+            "after": [
+                "/After/After-1.jpg",
+                "/After/After-2.jpg",
+                "/After/After-3.jpg",
+                "/After/After-4.jpg",
+                "/After/After-5.jpg"
+            ],
+            "before": [
+                "/Before/Before-1.jpg",
+                "/Before/Before-2.jpg",
+                "/Before/Before-3.jpg",
+                "/Before/Before-4.jpg",
+                "/Before/Before-5.jpg"
+            ]
+        },
+        {
+            "name": "Pi Drinks",
+            "path": "../assets/brandMockups/piDrinks",
+            "after": [
+                "/After/After-1.jpg",
+                "/After/After-2.jpg",
+                "/After/After-3.jpg",
+                "/After/After-4.jpg",
+                "/After/After-5.jpg"
+            ],
+            "before": [
+                "/Before/Before-1.jpg",
+                "/Before/Before-2.jpg",
+                "/Before/Before-3.jpg",
+                "/Before/Before-4.jpg",
+                "/Before/Before-5.jpg"
+            ]
+        },
+        {
+            "name": "Vegan Food",
+            "path": "../assets/brandMockups/veganFood",
+            "after": [
+                "/After/After-1.jpg",
+                "/After/After-2.jpg",
+                "/After/After-3.jpg",
+                "/After/After-4.jpg",
+                "/After/After-5.jpg"
+            ],
+            "before": [
+                "/Before/Before-1.jpg",
+                "/Before/Before-2.jpg",
+                "/Before/Before-3.jpg",
+                "/Before/Before-4.jpg",
+                "/Before/Before-5.jpg"
+            ]
+        }
+    ]
+}
