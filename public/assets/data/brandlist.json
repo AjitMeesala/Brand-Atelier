@@ -3,6 +3,8 @@
         {
             "name": "Big Bold",
             "path": "../assets/brandMockups/bigbold",
+            "prevLogo": "/Before.jpg",
+            "afterLogo": "/After.jpg",
             "after": [
                 "/After/After-1.jpg",
                 "/After/After-2.jpg",
@@ -20,7 +22,9 @@
         },
         {
             "name": "Brynn Constructions",
-            "path": "../assets/brandMockups/brynnConstructions",
+            "path": "../assets/brandMockups/brynnconstructions",
+            "prevLogo": "/Before.jpg",
+            "afterLogo": "/After.jpg",
             "after": [
                 "/After/After-1.jpg",
                 "/After/After-2.jpg",
@@ -38,7 +42,9 @@
         },
         {
             "name": "Pandago Gaming",
-            "path": "../assets/brandMockups/pandagoGaming",
+            "path": "../assets/brandMockups/pandagogaming",
+            "prevLogo": "/Before.jpg",
+            "afterLogo": "/After.jpg",
             "after": [
                 "/After/After-1.jpg",
                 "/After/After-2.jpg",
@@ -56,7 +62,9 @@
         },
         {
             "name": "Pi Drinks",
-            "path": "../assets/brandMockups/piDrinks",
+            "path": "../assets/brandMockups/pibeverages",
+            "prevLogo": "/Before.jpg",
+            "afterLogo": "/After.jpg",
             "after": [
                 "/After/After-1.jpg",
                 "/After/After-2.jpg",
@@ -74,7 +82,9 @@
         },
         {
             "name": "Vegan Food",
-            "path": "../assets/brandMockups/veganFood",
+            "path": "../assets/brandMockups/foodvegan",
+            "prevLogo": "/Before.jpg",
+            "afterLogo": "/After.jpg",
             "after": [
                 "/After/After-1.jpg",
                 "/After/After-2.jpg",
