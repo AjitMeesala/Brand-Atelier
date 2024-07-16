@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atelier's Gallery</title>
+
+    <!-- logo -->
+    <link rel="shortcut icon" href="../assets/logoFavicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../assets/logoFavicon/apple-touch-icon.png">
+    <link rel="manifest" href="../assets/logoFavicon/site.webmanifest">
+
     <!-- Custom styles -->
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- Bootstrap Styles -->
@@ -18,7 +24,31 @@
     />
   </head>
   <body class="w-100" data-bs-spy="scroll">
-    <div class="container py-5">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/BA_logo_V-0.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Brand Atelier
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" data-bs-scroll="false" id="navbarNav">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5 mt-5">
       <div class="w-100 d-flex flex-column gap-5">
         <div class="w-100 d-flex flex-column">
           <div class="text-white text-center title-1">Explore</div>
