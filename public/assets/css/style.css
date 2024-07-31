@@ -248,7 +248,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: #6fd449 1px solid; */
 }
+
+/* home */
+
+section {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+#home > div > .title-2 > video {
+  height: 11.25rem;
+  -webkit-clip-path: url(#text-clip);
+  clip-path: url(#text-clip);
+}
+
+#intro > div > .desc,
+#welcome > div > .desc {
+  font-size: 4rem;
+}
+
+/* Gallery */
 
 .title-1 {
   font-style: normal;
@@ -467,6 +488,15 @@ main {
     line-height: 5rem;
   }
 
+  #home > div > .title-2 {
+    font-size: 6rem;
+    line-height: 0rem;
+  }
+
+  #home > div > .title-2 > video {
+    height: 6rem;
+  }
+
   .carousel-indicators [data-bs-target] {
     width: 10px !important;
     height: 2px !important;
@@ -506,6 +536,15 @@ main {
     line-height: 6rem;
   }
 
+  #home > div > .title-2 {
+    font-size: 9rem;
+    line-height: 0rem;
+  }
+
+  #home > div > .title-2 > video {
+    height: 9rem;
+  }
+
   .carousel-indicators [data-bs-target] {
     width: 15px !important;
     height: 3px !important;
@@ -537,6 +576,15 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+  #home > div > .title-2 {
+    font-size: 11rem;
+    line-height: 0rem;
+  }
+
+  #home > div > .title-2 > video {
+    height: 11rem;
+  }
+  
   .modal-dialog {
     top: 0;
   }
@@ -563,6 +611,15 @@ main {
 }
 
 @media screen and (min-width: 1400px) {
+  #home > div > .title-2 {
+    font-size: 12rem;
+    line-height: 0rem;
+  }
+
+  #home > div > .title-2 > video {
+    height: 12rem;
+  }
+
   .button_before {
     left: -20px !important;
     width: 3rem !important;

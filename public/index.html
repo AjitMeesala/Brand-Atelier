@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atelier's Home</title>
 
-    <!-- Redirect -->
-    <meta http-equiv="refresh" content="0;url=./pages/gallery.html" />
-
     <!-- logo -->
-    <link rel="shortcut icon" href="./assets/logoFavicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="./assets/logoFavicon/apple-touch-icon.png">
-    <link rel="manifest" href="./assets/logoFavicon/site.webmanifest">
+    <link rel="shortcut icon" href="./assets/css/logo/logoFavicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./assets/css/logo/logoFavicon/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/css/logo/logoFavicon/site.webmanifest">
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -26,13 +23,64 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
   </head>
-  <body>
-    "This page will automatically redirect to the gallery page."
-    <br>
-    "If it doesn't, click the link below."
-    <br>
-    <a href="./pages/gallery.html">Gallery</a>
-    
+  <body class="w-100" data-bs-spy="scroll">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="./">
+          <img src="./assets/css/logo/BA_logo_V-0.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Brand Atelier
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" data-bs-scroll="false" id="navbarNav">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-3">
+      <section id="home" class="d-flex align-items-center">
+        <div class="w-100">
+          <div class="text-white text-center title-1">Welcome to</div>
+          <div class="text-white text-center title-2">
+            <!-- Clipping video to text -->
+             <svg class="w-100" height="0" xmlns="http://www.w3.org/2000/svg">
+              <clipPath id="text-clip">
+                <text class="d-md-none" x="50" y="80">Brand Atelier</text>
+                <text class="d-none d-md-block d-lg-none" x="50" y="80">Brand Atelier</text>
+                <text class="d-none d-lg-block d-xl-none" x="30" y="120">Brand Atelier</text>
+                <text class="d-none d-xl-block d-xxl-none" x="20" y="140">Brand Atelier</text>
+                <text class="d-none d-xxl-block" x="70" y="160">Brand Atelier</text>
+              </clipPath>
+             </svg>
+            <video src="./assets/css/videos/TextBg Video.mp4" class="w-100 object-fit-cover" muted autoplay loop playsinline></video>
+          </div>
+        </div>
+      </section>
+      <section id="intro" class="d-flex align-items-center">
+        <div class="w-100 d-flex flex-row" style="gap: 5%;">
+          <div class="text-white text-end desc" style=" width: 30%; font-weight: 100; line-height: 4rem;">We create brand identity<br>to propel your business forward</div>
+          <div class="ratio ratio-16x9 mx-auto" style="width: 65%;">
+            <video src="./assets/css/videos/BrandAtelierShowreel.mp4" class="object-fit-cover" muted controls autoplay loop playsinline></video>
+          </div>
+        </div>
+      </section>
+      <section id="welcome" class="d-flex align-items-center">
+        <div class="w-100 d-flex flex-row" style="gap: 5%;">
+          <div class="text-white text-start desc" style="width: 30%; font-weight: 100; line-height: 4rem;">Fueling your narration, reaching your imagination.</div>
+        </div>
+      </section>
+    </div>
 
     <!-- Jquery scripts -->
     <script src="./assets/js/jquery-3.7.1.js"></script>
